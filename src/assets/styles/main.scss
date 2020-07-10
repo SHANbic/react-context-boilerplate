@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: calc(100vh - 2rem);
+  padding: 5rem;
+  margin: 1rem;
+  border: 1rem inset burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  letter-spacing: 5px;
+  font-family: monospace, sans-serif;
+}
+
+.setup {
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+}
+
+.delivery{
+  font-size: 0.8rem;
+  text-align: right;
+}
